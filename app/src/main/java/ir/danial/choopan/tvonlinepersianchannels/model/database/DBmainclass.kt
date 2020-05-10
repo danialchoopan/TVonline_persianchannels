@@ -8,7 +8,7 @@ import java.io.IOException
 
 open class DBmainclass(val context: Context) {
     //general
-    val dbVersion = 1
+    val dbVersion = 2
     val dbName = "db_tvChannel"
 
     val database: SQLiteDatabase
