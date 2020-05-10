@@ -25,7 +25,7 @@ class Adapter_recyclerView_channels(val tv_channels:ArrayList<TVchannle>,val onC
 
     override fun onBindViewHolder(holder: holder, position: Int) {
         holder.txt_name.text=tv_channels[position].name
-        if(tv_channels[position].favorite)
+        if(tv_channels[position].favorite==1)
             holder.btn_favorite.text="علاقه مندی"
         else
             holder.btn_favorite.text="افزودن به علاقه مندی"
