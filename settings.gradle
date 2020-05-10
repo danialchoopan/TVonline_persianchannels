@@ -1,0 +1,2 @@
+rootProject.name='TV online(persian channels)'
+include ':app'
